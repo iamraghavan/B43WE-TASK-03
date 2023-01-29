@@ -1,0 +1,15 @@
+In JavaScript, the window object represents the current browser window or tab. It is the top-level object in the browser's JavaScript environment, and it provides access to the browser's Document Object Model (DOM), as well as various browser-specific features such as the location object (which represents the current URL), the navigator object (which provides information about the browser), and the console object (which allows you to log messages to the browser's developer console).
+
+The screen object represents the screen of the device that is displaying the current web page. 
+It provides information about the screen's resolution, color depth, and other characteristics. 
+You can use the screen.width and screen.height properties to determine the screen's resolution, for example.
+
+The document object represents the current web page. 
+It is a child of the window object and is also part of the DOM. 
+The document object is used to access and manipulate the elements of a web page, such as the head, body, and title elements. 
+You can use the document.getElementById() method to access a specific element on the page, for example.
+
+In summary,
+window is the top-level JavaScript object that represents the current browser window or tab,
+screen provides information about the screen of the device that is displaying the current web page,
+document represent the current web page and is used to access and manipulate the elements of a web page.
